@@ -42,4 +42,14 @@
             android:id="@+id/textView" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="23dp"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/buttong"
+            android:id="@+id/button4"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginBottom="64dp" app:layout_constraintBottom_toBottomOf="parent"
+    />
 </android.support.constraint.ConstraintLayout>
